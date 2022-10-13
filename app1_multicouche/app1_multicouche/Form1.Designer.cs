@@ -30,9 +30,9 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.nom = new System.Windows.Forms.TextBox();
+            this.pass = new System.Windows.Forms.TextBox();
+            this.button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -53,37 +53,38 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Mot de passe";
             // 
-            // textBox1
+            // nom
             // 
-            this.textBox1.Location = new System.Drawing.Point(229, 108);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(159, 23);
-            this.textBox1.TabIndex = 2;
+            this.nom.Location = new System.Drawing.Point(229, 108);
+            this.nom.Name = "nom";
+            this.nom.Size = new System.Drawing.Size(159, 23);
+            this.nom.TabIndex = 2;
             // 
-            // textBox2
+            // pass
             // 
-            this.textBox2.Location = new System.Drawing.Point(229, 183);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(159, 23);
-            this.textBox2.TabIndex = 3;
+            this.pass.Location = new System.Drawing.Point(229, 183);
+            this.pass.Name = "pass";
+            this.pass.Size = new System.Drawing.Size(159, 23);
+            this.pass.TabIndex = 3;
             // 
-            // button1
+            // button
             // 
-            this.button1.Location = new System.Drawing.Point(210, 239);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(96, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button.Location = new System.Drawing.Point(247, 237);
+            this.button.Name = "button";
+            this.button.Size = new System.Drawing.Size(96, 23);
+            this.button.TabIndex = 4;
+            this.button.Text = "button1";
+            this.button.UseVisualStyleBackColor = true;
+            this.button.Click += new System.EventHandler(this.button_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button);
+            this.Controls.Add(this.pass);
+            this.Controls.Add(this.nom);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -98,8 +99,8 @@
 
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button1;
+        private TextBox nom;
+        private TextBox pass;
+        private Button button;
     }
 }

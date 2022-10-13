@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TAZZI\\source\\repos\\app1_multicouche\\app1_multicouche\\app1_multicouche.csproj",
+      "projectUniqueName": "C:\\Users\\TAZZI\\Desktop\\projet-exemple-1\\app1_multicouche\\app1_multicouche\\app1_multicouche.csproj",
       "projectName": "app1_multicouche",
-      "projectPath": "C:\\Users\\TAZZI\\source\\repos\\app1_multicouche\\app1_multicouche\\app1_multicouche.csproj",
+      "projectPath": "C:\\Users\\TAZZI\\Desktop\\projet-exemple-1\\app1_multicouche\\app1_multicouche\\app1_multicouche.csproj",
       "packagesPath": "C:\\Users\\TAZZI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TAZZI\\source\\repos\\app1_multicouche\\app1_multicouche\\obj\\",
+      "outputPath": "C:\\Users\\TAZZI\\Desktop\\projet-exemple-1\\app1_multicouche\\app1_multicouche\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
